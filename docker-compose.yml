@@ -1,0 +1,6 @@
+services:
+  database:
+    image: cassandra:4.0.3
+    ports:
+      - "9042:9042"
+      - "7001:7000"
